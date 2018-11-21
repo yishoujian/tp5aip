@@ -1,0 +1,8 @@
+{
+  "name": "测试APIs",
+  "version": "1.0.0",
+  "description": "接口文档",
+  "title": "test APIs",
+  "url": "http://127.0.0.1:88/api/",
+  "sampleUrl": "http://127.0.0.1:88/api/"
+}
