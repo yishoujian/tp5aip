@@ -18,11 +18,12 @@ class BaseController extends Controller
         header('Access-Control-Allow-Origin:*');
         $allow=[
           "user/login",
-            "user/add"
+            "user/add",
+            "v1.user/login"
         ];
 
         $url=strtolower($request->controller()."/".$request->action());
-//        halt(in_array($url,$allow));
+//        halt($url);
         if (in_array($url,$allow)===false){
             //得到token
             $token=input("token")??$request->header("token");
